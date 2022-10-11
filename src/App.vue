@@ -11,7 +11,7 @@
   import MainVisual from "./components/MainVisual.vue";
   import DirectBanner from "./components/DirectBanner.vue"
 
-  import directs from "./data/directs.js"
+  import 자료 from "@/data/directs.js"
 
 
 export default {
@@ -22,7 +22,7 @@ export default {
   },
   data(){
     return {
-      directData:directs
+      directData:자료
     }
   }
 }

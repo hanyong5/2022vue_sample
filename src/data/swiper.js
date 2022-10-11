@@ -1,3 +1,7 @@
+// const sData = []
+
+// export default sData;
+
 export default [
     {
       name: "1월 가구 X 인테리어 최대 22% + 10%",
