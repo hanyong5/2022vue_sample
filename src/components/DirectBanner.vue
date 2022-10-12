@@ -2,10 +2,10 @@
   <div class="container">
     <ul class="dBanner">
       <li v-for="(item, i) in data" v-bind:key="i">
-        <a v-bind:href="item.href">
-          <img :src="`./images/directs/${item.src}`" alt="" />
+        <a v-bind:href="data[i].href">
+          <img :src="`./images/directs/${data[i].src}`" alt="" />
           <div class="txt">
-            {{ item.name }}
+            {{ data[i].name }}
           </div>
         </a>
       </li>
