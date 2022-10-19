@@ -66,7 +66,9 @@ export default {
 };
 </script>
 <style lang="scss">
-  .mySwiper{
+  
+  .visual{
+    .mySwiper{
     .swiper-slide{
       height: 400px;
       .innerItem{ 
@@ -78,7 +80,6 @@ export default {
       }
     }
   }
-  .visual{
     position: relative;
     .btnWrap{
       position: absolute;
